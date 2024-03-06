@@ -6,9 +6,9 @@ const ServicesSection = () => {
   return (
     <div>
       <section className="bg-white" >
-        <div className="w-11/12 max-w-7xl mx-auto" >
+        <div className="w-11/12 max-w-7xl mx-auto py-10 " >
 
-          <div>
+          <div className='flex items-center justify-between' >
             {/* headings */}
             <div>
               <h1 className="font-semibold text-5xl" >Services We Offer</h1>
@@ -16,7 +16,7 @@ const ServicesSection = () => {
             </div>
 
             {/* buttons */}
-            <div>
+            <div className='flex items-center gap-3' >
               {/* left */}
               <button
                 type="button"
@@ -28,7 +28,7 @@ const ServicesSection = () => {
               {/* right */}
               <button
                 type='button'
-                className=''
+                className='border border-black rounded-full p-2'
               >
                 <FaArrowRightLong />
               </button>
