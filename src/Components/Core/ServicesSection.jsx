@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaArrowLeftLong } from "react-icons/fa6";
 import { FaArrowRightLong } from "react-icons/fa6";
+import ServiceRow from '../Common/ServiceRow';
 
 const ServicesSection = () => {
   return (
@@ -34,6 +35,9 @@ const ServicesSection = () => {
               </button>
             </div>
           </div>
+
+          {/* service cards */}
+          <ServiceRow/>
         </div>
       </section>
     </div>
