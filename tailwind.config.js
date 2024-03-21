@@ -6,12 +6,6 @@ module.exports = {
       Poppins:"Poppins"
     },
 
-    colors:{
-      customGreen:'#DFFFEE',
-      customBlue:'#D9FDFF',
-      customRed:'#FFE6E6',
-      customPurple:'#E0E3FB',
-    }
   },
   plugins: [],
 };

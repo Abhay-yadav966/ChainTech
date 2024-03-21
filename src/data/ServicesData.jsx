@@ -9,24 +9,24 @@ export const ServicesData = [
         id:0,
         title:"Blockchain Development",
         logo:Logo1,
-        bgColor:`bg-customGreen`,
+        bgColor:`bg-[#DFFFEE]`,
     },
     {
         id:1,
         title:"Blockchain Development",
         logo:Logo2,
-        bgColor:`bg-customBlue`,
+        bgColor:`bg-[#D9FDFF]`,
     },
     {
         id:2,
         title:"Security AAS",
         logo:Logo3,
-        bgColor:`bg-customRed`,
+        bgColor:`bg-[#FFE6E6]`,
     },
     {
         id:3,
         title:"Motion Graphic",
         logo:Logo4,
-        bgColor:`bg-customPurple`,
+        bgColor:`bg-[#E0E3FB]`,
     }
 ]
