@@ -5,9 +5,9 @@ import ServiceRow from '../Common/ServiceRow';
 
 const ServicesSection = () => {
   return (
-    <div>
+    <>
       <section className="bg-white" >
-        <div className="w-11/12 max-w-7xl mx-auto py-10 " >
+        <div className="w-11/12 max-w-7xl mx-auto py-10 flex flex-col gap-10" >
 
           <div className='flex items-center justify-between' >
             {/* headings */}
@@ -43,7 +43,7 @@ const ServicesSection = () => {
           </div>
         </div>
       </section>
-    </div>
+    </>
   )
 }
 

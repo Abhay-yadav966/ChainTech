@@ -2,6 +2,7 @@ import "./App.css";
 import Navbar from "./Components/Core/Navbar";
 import HeroSection from "./Components/Core/HeroSection";
 import ServicesSection from "./Components/Core/ServicesSection";
+import Footer from "./Components/Core/Footer";
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
 
       {/* section 2 */}
       <ServicesSection/>
+
+      {/* footer */}
+      <Footer/>
     </div>
   );
 }
