@@ -8,7 +8,7 @@ const Navbar = () => {
     const [tab, setTab] = useState(NavbarData[0].title);
     
   return (
-    <div className=' w-11/12 max-w-7xl mx-auto py-6 flex items-center' >
+    <div className=' w-11/12 max-w-7xl mx-auto py-6 flex flex-col md:flex-row gap-2  items-center' >
         {/* image */}
         <img src={Logo} alt="Logo Image" />
 
@@ -19,7 +19,7 @@ const Navbar = () => {
                     NavbarData?.map((element) => (
                         <li key={element?.id}
                             onClick={() => setTab(element?.title)}
-                            className={`${tab === element?.title ? "text-[#00FFA7]" : "text-white"} font-semibold text-lg cursor-pointer`}
+                            className={`${tab === element?.title ? "text-[#00FFA7]" : "text-white"} font-semibold text-[8px] sm:text-xs md:text-lg cursor-pointer`}
                         >
                             {element?.title}
                         </li>

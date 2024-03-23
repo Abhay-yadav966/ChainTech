@@ -5,7 +5,7 @@ import ServiceCard from './ServiceCard';
 const ServiceRow = () => {
 
   return (
-    <div className='flex items-center justify-between ' >
+    <div className='flex items-center flex-wrap justify-between ' >
         {
             ServicesData?.map((data) => (
                 <div key={data?.id} >
