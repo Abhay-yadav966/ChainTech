@@ -19,7 +19,7 @@ const Navbar = () => {
                     NavbarData?.map((element) => (
                         <li key={element?.id}
                             onClick={() => setTab(element?.title)}
-                            className={`${tab === element?.title ? "text-[#00FFA7]" : "text-white"} font-semibold text-[8px] sm:text-xs md:text-lg cursor-pointer`}
+                            className={`${tab === element?.title ? "text-[#00FFA7]" : "text-white"} font-semibold text-[10px] sm:text-xs md:text-lg cursor-pointer`}
                         >
                             {element?.title}
                         </li>
