@@ -12,7 +12,7 @@ const Footer = () => {
             <div className='border-b border-[#5E5E5E] w-[700px] mx-auto ' ></div>
 
             {/* policies */}
-            <p className='font-medium text-sm text-[#98A6AC]' >© 2024 All Rights Reserved -  Chaintech Network</p>
+            <p className='font-medium text-sm text-center text-[#98A6AC]' >© 2024 All Rights Reserved -  Chaintech Network</p>
         </footer>
     </>
   )
