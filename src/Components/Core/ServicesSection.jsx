@@ -12,8 +12,8 @@ const ServicesSection = () => {
           <div className='flex items-center justify-between' >
             {/* headings */}
             <div>
-              <h1 className="font-semibold text-5xl" >Services We Offer</h1>
-              <p className="font-medium text-lg" >Discover the digital possibilities for your brand with our comprehensive suite of services.</p>
+              <h1 className="font-semibold text-2xl md:text-3xl lg:text-5xl" >Services We Offer</h1>
+              <p className="font-medium text-sm md:text-base lg:text-lg" >Discover the digital possibilities for your brand with our comprehensive suite of services.</p>
             </div>
 
             {/* buttons */}
